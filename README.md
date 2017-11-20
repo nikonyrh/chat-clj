@@ -1,4 +1,4 @@
-# swarm-clj
+# chat-clj
 
 A simple experiment on core.async and Redis pub/sub patterns. Messages are published into a single
 Redis key, but `/list` command creates a short-lived user-specific subscription to which other clients
